@@ -1,6 +1,7 @@
-﻿numpy
+numpy
 scipy
 matplotlib
 librosa
 soundfile
 streamlit
+pandas
