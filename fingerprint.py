@@ -1,4 +1,10 @@
+import numpy as np
+import librosa
 import pickle
+
+from scipy.signal import spectrogram
+from scipy.ndimage import maximum_filter
+from collections import defaultdict, Counter
 with open("database.pkl","rb") as f:
     database = pickle.load(f)
 
